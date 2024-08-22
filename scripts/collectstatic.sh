@@ -1,3 +1,6 @@
 #!/bin/sh
+echo '🟡 Performing Collect Static '
 
-sudo python manage.py collectstatic --noinput
+python manage.py collectstatic --noinput
+
+echo "✅ Collect Static realized!"
